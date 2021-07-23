@@ -1,46 +1,25 @@
 *{
-    margin: 5px;
-    padding:0;
+    box-sizing:border-box;
 }
-
-
 body{
-    text-align:center;
-    width: 80%;
-    font-size:15px;
-    font-family: [Inter](https://fonts.google.com/specimen/Inter);
-    font-weight: 400,700;
-
-   .image container{}
-       background-color:  hsl(277, 64%, 61%);
-
-}
-     .main container{
-        hsl(233, 47%, 7%);
-
-     }
-
-h1,h2{
-    color : hsl(0, 0%, 100%);
-}
-
-p{
-    color:hsla(0, 0%, 100%, 0.75);
-}
-.stat headings{
-    hsla(0, 0%, 100%, 0.6);
-}
-.main container{
     background-color: hsl(233, 47%, 7%);
-    margin: 20px;
 }
-.card{
-    background-color:  Dark desaturated blue:hsl(244, 38%, 16%);
+.rightflex{
+    flex:right;
+    width: 5px;
+    height:10px;
+    
+    
 }
-{
-    box-sizing: borderbox;
-@media screen and (min-width: 375px) 
-{
+
+.container{
+    
+    padding:20px;
+    margin:500px;
+    font-size:15px;
+    border-width:30px;
+    border-color:  hsl(233, 47%, 7%);
+    
+}
 
 
-}
